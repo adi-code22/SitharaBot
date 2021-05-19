@@ -13,11 +13,12 @@ import numpy as np
 # data = open('').read()
 data = open('/content/sample_data/Dataset1-Sithara.txt').read()
 #open('enter location of dataset')
-
+# print(data)
 
 corpus = data.lower().split("\n")
+corpus = list(set(corpus))
+tokenizer = Tokenizer()
 tokenizer.fit_on_texts(corpus)
 total_words = len(tokenizer.word_index) + 1
-
-print(tokenizer.word_index)
-print(total_words)
+# print(tokenizer.word_index)
+input_sequences = []
