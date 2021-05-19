@@ -9,8 +9,11 @@ from tensorflow import keras
 import numpy as np
 
 
-tokenizer = Tokenizer()
-data = open('').read()
+# tokenizer = Tokenizer()
+# data = open('').read()
+data = open('/content/sample_data/Dataset1-Sithara.txt').read()
+#open('enter location of dataset')
+
 
 corpus = data.lower().split("\n")
 tokenizer.fit_on_texts(corpus)
