@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="../static/styles.css">
+	<!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='static/styles.css') }}"> -->
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+			Lyrics Prediction App Using Python
+		</div>
+		<h2>This Web App Creates a custom lyrics based on user input</h2>
+		
+	</div>
+	</header>
+
+	<div class="ml-container">
+
+		<form action="{{ url_for('predict')}}" method="POST">
+		<p>Enter Your Starting Lyrics Here</p>
+		
+		<textarea name="message" rows="4" cols="50"></textarea>
+		<br/>
+
+		<input type="submit" class="btn-info" value="predict">
+		
+	</form>
+		
+	</div>
+
+	
+	
+
+</body>
+</html>
