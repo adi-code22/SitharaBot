@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec457381-eeba-4ce0-92fb-162c0906737b" name="Default Changelist" comment="Secondary Commit" />
+    <list default="true" id="ec457381-eeba-4ce0-92fb-162c0906737b" name="Default Changelist" comment="Secondary Commit">
+      <change beforePath="$PROJECT_DIR$/SitharaLSTM_Model/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/SitharaLSTM_Model/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
