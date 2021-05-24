@@ -1,18 +1,26 @@
 body{
+background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+height:100vh;
 	font:15px/1.5 Arial, Helvetica,sans-serif;
 	padding: 0px;
 	background-color:#f4f3f3;
 }
 
 .container{
+
+height:40%
 	width:100%;
 	margin: auto;
 	overflow: hidden;
 }
-
+.ml-container{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
 header{
-	background:#03A9F4;
-	border-bottom:#448AFF 3px solid;
+
+
 	height:120px;
 	width:100%;
 	padding-top:30px;
@@ -26,11 +34,14 @@ header{
 			width:100%;
 			margin:0px;
 		}
-#brandname{
-	float:left;
+#hahaha{
+
+justify-content:center;
+	display:flex;
+	align-items:center;
 	font-size:30px;
 	color: #fff;
-	margin: 10px;
+
 }
 
 header h2{
@@ -39,18 +50,39 @@ header h2{
 
 }
 
+.pred{
 
+border-radius:12px;
+    margin:left;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.ly{
+color: #fff;
+  margin:left;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 
-.btn-info {background-color: #2196F3;
+}
+
+.btn-info {
+border-radius:12px;
+    background-color: #fff;
 	height:40px;
 	width:100px;} /* Blue */
-.btn-info:hover {background: #0b7dda;}
+.btn-info:hover {background: #a8eb12;}
 
 
-.resultss{
+.results{
+position:relative;
+margin-left:23vw;
 	border-radius: 15px 50px;
     background: #345fe4;
-    padding: 20px; 
-    width: 200px;
-    height: 150px;
+    padding: 20px;
+    width: 50vw;
+    height: 20vh;
 }
+
+
