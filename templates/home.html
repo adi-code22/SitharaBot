@@ -8,25 +8,26 @@
 <body>
 
 	<header>
-		<div class="container">
-		<div id="brandname">
+		<div class="container" >
+		<div id="hahaha">
 			Lyrics Prediction App Using Python
 		</div>
 		<h2>This Web App Creates a custom lyrics based on user input</h2>
-		
+
 	</div>
 	</header>
 
 	<div class="ml-container">
 
 		<form action="{{ url_for('predict')}}" method="POST">
-		<p>Enter Your Starting Lyrics Here</p>
+		<p class="ly">Enter Your Starting Lyrics Here</p>
 		
-		<textarea name="message" rows="4" cols="50"></textarea>
+		<textarea name="message" rows="4" cols="50" style="border-radius:12px";></textarea>
 		<br/>
-
-		<input type="submit" class="btn-info" value="predict">
-		
+			<div class="pred">
+					<input type="submit" class="btn-info" value="Predict">
+<!--				<button class="btn-info" value="predict">submit</button>-->
+			</div>
 	</form>
 		
 	</div>
