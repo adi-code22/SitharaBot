@@ -1,4 +1,4 @@
-from flask import Flask,render_template,url_for,request
+from flask import Flask, render_template, request
 
 
 app = Flask(__name__)
@@ -47,7 +47,7 @@ def predict():
     model = loaded_model
     if request.method == 'POST':
         seed_text = request.form['message']
-        next_words = 10
+        next_words = int(request.form['number_count'])
 
         for _ in range(next_words):
             token_list = tokenizer.texts_to_sequences([seed_text])[0]
@@ -60,7 +60,7 @@ def predict():
                     break
             seed_text += " " + output_word
         my_prediction=seed_text
-        return render_template('result.html',prediction = my_prediction)
+        return render_template('result.html', prediction = my_prediction)
 
 if __name__ == '__main__':
 	app.run(debug=True)
