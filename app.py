@@ -19,7 +19,7 @@ def predict():
     from tensorflow import keras
     import numpy as np
     from keras.models import model_from_json
-    data = open('.\\Dataset1-Sithara.txt').read()
+    data = open('Dataset1-Sithara.txt').read()
     # open('enter location of dataset')
     # print(data)
 
