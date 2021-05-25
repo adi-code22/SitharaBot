@@ -26,8 +26,8 @@ Build a flask webapp to take input from the user and to predict new images using
      BFH/recF8NlSP3G7kZDkA/2021
 
 ## Link to product walkthrough :tv:
-![Watch the video]()
-()
+![Watch the video](https://bit.ly/2SnecIg)
+<!-- () -->
 
 ## Live URL :satellite:
 We have deployed the current model to Heroku
