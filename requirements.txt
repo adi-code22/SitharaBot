@@ -1,6 +1,5 @@
 Werkzeug
 Flask
-numpy
 Keras
 pillow
 h5py
