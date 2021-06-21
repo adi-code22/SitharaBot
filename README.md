@@ -7,6 +7,8 @@ http://paatukari.herokuapp.com/
 ![BFH Banner](https://trello-attachments.s3.amazonaws.com/542e9c6316504d5797afbfb9/542e9c6316504d5797afbfc1/39dee8d993841943b5723510ce663233/Frame_19.png)
 # Paatukari.ml
 
+<img align="center" src="https://github.com/adi-code22/SitharaBot/blob/main/ezgif.com-gif-maker.gif?raw=true" />
+
 In this project, I built a flask web application that uses the lyrics of songs by sithara and then predict the lyrics based on user input.
 This project is divided to two parts:
 
